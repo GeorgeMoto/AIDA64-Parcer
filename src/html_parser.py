@@ -186,7 +186,7 @@ class ExcelReportGenerator:
         # Стиль для текста с переносом
         self.wrap_alignment = Alignment(wrap_text=True, vertical='top')
         # Стиль для центрированного текста
-        self.center_alignment = Alignment(vertical='center')
+        self.center_alignment = Alignment(vertical='top')
 
     def create_workbook(self, output_file):
         """Создает новую книгу Excel и настраивает заголовки"""
